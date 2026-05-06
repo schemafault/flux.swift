@@ -12,7 +12,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/ml-explore/mlx-swift", .upToNextMajor(from: "0.25.4")),
-    .package(url: "https://github.com/huggingface/swift-transformers",.upToNextMajor(from: "0.1.21")),
+    .package(url: "https://github.com/huggingface/swift-transformers", .upToNextMajor(from: "1.3.0")),
     .package(url: "https://github.com/apple/swift-log.git", from: "1.5.3")
   ],
   targets: [
